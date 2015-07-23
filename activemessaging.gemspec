@@ -120,14 +120,14 @@ Gem::Specification.new do |s|
     #  s.add_runtime_dependency(%q<activemessaging>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
       s.add_runtime_dependency(%q<activesupport>, [">= 2.3.11"])
-      s.add_development_dependency(%q<jeweler>, [">= 0"])
+      #s.add_development_dependency(%q<jeweler>, [">= 0"])
       s.add_development_dependency(%q<stomp>, [">= 0"])
       s.add_development_dependency(%q<appraisal>, [">= 0"])
     else
     #  s.add_dependency(%q<activemessaging>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
       s.add_dependency(%q<activesupport>, [">= 2.3.11"])
-      s.add_dependency(%q<jeweler>, [">= 0"])
+      #s.add_dependency(%q<jeweler>, [">= 0"])
       s.add_dependency(%q<stomp>, [">= 0"])
       s.add_dependency(%q<appraisal>, [">= 0"])
     end
@@ -135,7 +135,7 @@ Gem::Specification.new do |s|
   #  s.add_dependency(%q<activemessaging>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<activesupport>, [">= 2.3.11"])
-    s.add_dependency(%q<jeweler>, [">= 0"])
+    #s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<stomp>, [">= 0"])
     s.add_dependency(%q<appraisal>, [">= 0"])
   end
