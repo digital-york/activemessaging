@@ -1,9 +1,11 @@
+require_relative 'message_sender.rb'
+
 # 'abstract' base class for ActiveMessaging processor classes
 module ActiveMessaging
 
   class Processor
-    include MessageSender
-    
+    include MessageSender    
+
     attr_reader :message
   
     class<<self
